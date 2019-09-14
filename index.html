@@ -88,10 +88,8 @@ Color:yellow;
     </div>
 
   <div class="corpo">
-    <center>
-  <h1>Em breve!</h1>
-    <audio id="myAudio">
-  <source src="Ride.mp3" type="audio/mpeg" autoplay="true">
+     <audio id="myAudio">
+  <source src="Ride.mp3" type="audio/mpeg" loop>
   Your browser does not support the audio element.</audio>
   <button onclick="playAudio()" type="button">🔊</button>
 <button onclick="pauseAudio()" type="button">❌</button> 
@@ -106,7 +104,9 @@ function playAudio() {
 function pauseAudio() { 
   x.pause(); 
 } 
-      </script></center>
+      </script>
+    <center>
+  <h1>Em breve!</h1></center>
     </div>
   <div class="trofeus"><h1 class="tro-blink" Id="tro">🏆Troféus🏆</h1>
   </div>
