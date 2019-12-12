@@ -30,7 +30,7 @@
     </div>
    <center>
   <div class="trofeus">
-    <h1>Desenvolvedores</h1>
+    <h1 class="fa-blink">Desenvolvedores</h1>
     <div class="row">
     <div class="card" style="width: 18rem;">
      <img src="bruno.jpg" class="card-img-top" alt="Bruno">
@@ -42,13 +42,13 @@
     <div class="card" style="width: 18rem;">
      <img src="fannuel.jpg" class="card-img-top" alt="Fannuel">
        <div class="card-body">
-    <p class="card-text">Fannuel.</p>
+    <p class="card-text">Fannuel Victor Da Cunha Mariano.</p>
   </div>
 </div>
     <div class="card" style="width: 18rem;">
      <img src="eu.jpg" class="card-img-top" alt="Felipe">
        <div class="card-body">
-    <p class="card-text">Felipe Isaac De S. Lopes.</p> 
+    <p class="card-text">Felipe Isaac De Souza Lopes.</p> 
   </div>
 </div>
     </div>
@@ -109,15 +109,22 @@
 @keyframes fa-blink {
 
      0% { opacity: 1; }
-
      50% { opacity: 0.5; }
-
      100% { opacity: 0; }
 
      
 
        }
 .fa-blink {
+  
+   -webkit-animation: fa-blink 1.0s linear infinite;
+   -moz-animation: fa-blink 1.0s linear infinite;
+   -ms-animation: fa-blink 1.0s linear infinite;
+   -o-animation: fa-blink 1.0s linear infinite;
+
+   animation: fa-blink 1.90s linear infinite;
+  animation-delay:3s;
+}.fa-blink {
   
    -webkit-animation: fa-blink 1.0s linear infinite;
    -moz-animation: fa-blink 1.0s linear infinite;
